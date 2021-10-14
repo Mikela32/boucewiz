@@ -1,0 +1,292 @@
+/* 
+
+	Bounce Wiz Party Rentals 
+	
+	Author: Mikela Montgomery 
+	Date: October 10,2021
+	Filename: 	main.css
+	Supporting Files: 
+	
+*/
+
+/*Display HTML5 structal elements block */
+	
+article, aside, figure, figcaption, footer, hgroup, header,
+ section, nav {
+	display: block;
+ }
+ 
+ /* Set the default page element styles */
+ body {
+	 margin: 0px auto;
+	 width: 900px;
+	 background-color: black;
+	
+}
+
+ body * {
+	 font-family: Big Shoulders Display, Geneva, sans-serif;
+	 font-size: 100%;
+	 font-weight: inherit;
+	 line-height: 1.2em;
+	 margin: 0px;
+	 padding: 0px;
+	 text-decoration: none;
+	 vertical-align: baseline;
+ }
+ 
+
+/* Navigation links */
+nav ul {
+	list-style: none;
+	margin-top: 5px;
+}
+
+nav li {
+	float: left;
+	width: 19%;
+	text-align: center;
+	border-radius: 25px; /* makes circular */
+	border: 1px solid rgb(142, 218, 255);
+	margin: 10px 5px 15px 2px;
+}
+
+nav li a {
+	display: block;
+	color: rgb(142, 218, 255);
+    text-decoration: none;
+	background-color: white;
+}
+
+nav li a:hover {
+	color:pink ;
+	background-color: rgb(142, 218, 255);
+}
+
+/* Navigation links */
+nav ul {
+	list-style: none;
+	margin-top: 5px;
+}
+
+nav li {
+	float: left;
+	width: 19%;
+	text-align: center;
+	border: 1px solid rgb(142, 218, 255);
+	margin: 5px 2px 15px 2px;
+}
+
+nav li a {
+	display: block;
+	color: rgb(142, 218, 255);
+	text-decoration: none;
+	background-color: black;
+}
+
+nav li a :hover {
+	color:white;
+	background-color: rgb(142, 218, 255);
+}
+
+/* h1, h2, P, ul */
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: rgb(142, 218, 255);
+	margin-top: 15px;
+}
+
+h2 {
+	font-size: 16px; 
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: rgb(142, 218, 255);
+	margin-top: 15px;
+}
+ul {
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: 5px;
+	color: rgb(255, 51, 255);
+	margin-top: 15px;
+}
+	
+p {
+margin: 10px;
+color: rgb(142, 218, 255);
+}
+
+#main {
+border-top: 2px solid rgb(142, 218, 255);
+}
+
+#main ul {
+	list-style-type: circle;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+#main ul li {
+	margin-bottom: 10px;
+}
+
+#main ul li strong {
+	font-weight: normal;
+	color: rgb(142, 218, 255);
+}
+
+footer {
+	border-top: 2px solid rgb(142, 218, 255);
+	float: left;
+	width: 100%;
+}
+
+address {
+	font-style: normal;
+	font-size: 20px;
+	text-align: center;
+	padding: 5px;
+	color: white;
+}
+
+/* image styles */
+img.irregularWrap {
+	clear: right;
+	float: right;
+	margin: 0px;
+}
+
+/* table on price page */
+
+table {
+	font-size: 14px;
+	border-collapse: collapse;
+	border: 10px outset rgb(142, 218, 255);
+	margin: 10px auto;
+	width: 400px;
+}
+
+thead {
+	background-color: pink;
+}
+
+th,td {
+	border: 1px solid black;
+	vertical-align: top;
+	padding: 5px;
+}
+
+tr td:nth-of-type(2), tr td:nth-of-type(3) {
+	text-align: right;
+	color: white;
+}
+
+.feeColums {
+	background-color: rgb(131, 201, 201);
+}.firstCol {
+	background-color: white;
+}
+
+/* fieldset styles contact */
+fieldset {
+	border: 2px solid white;
+	padding: 2%;
+	margin-bottom: 0em;
+	color: rgb(142, 218, 255);
+}
+
+legend {
+	font-size: 1.4em;
+	font-weight: bold;
+	font-family: Big Shoulders Display, Geneva, sans-serif;
+	color: rgb(142, 218, 255);
+}
+.submitbutton {
+	border:none;
+	text-align: center;
+}
+/* feld styles*/
+input, textarea {
+	border: 1px solid #777;
+	padding: 0.2em;
+	font-size: 1em;
+}
+
+#fnameinput, #lnameinput, #phoneinput {
+	width: 20em;
+}
+#phoneinput {
+	width:12em;
+}
+#feedback {
+	width: 98%;
+	display: block;
+}
+#submit {
+	border: 1px solid #999;
+	font-size: 1.5em;
+	font-weight: bold;
+	background-color: #c8f098;
+	border-radius: 0.5em;
+}
+/*aside about us page*/
+aside {
+	display: block;
+	width: 400px;
+	float: right;
+	background-color: blue;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 5px 0px 20px 20px;
+}
+
+aside img {
+float: none;
+margin: 5px;
+}
+
+aside {
+	height: 300px;
+	overflow: auto;
+}
+/* photo gallery */
+div.gallergy {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 100px;
+}
+div.gallery {
+	border: 1px solid #ccc;
+}
+div.gallery img {
+	width: 50%;
+	height: auto;
+}
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+ 
+ 
